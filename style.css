@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navbar {
+    background-color: rgb(40 28 9 / 80%);
+}
+
+.logo {
+    color: bisque;
+}
+
+.navbar-nav {
+    margin-left: 10px;
+}
+
+.nav-item a:hover {
+    text-decoration: underline;
+    transition: ease-in 0.4s;
+}
+#navbar form button {
+    background-color:  rgb(47 42 34);
+    border: 1px solid  rgb(47 42 34) ;
+    color: bisque;
+}
+
+/* <HOMEPAGE_ CSS> */
+#Home {
+    font-family: sans-serif;
+}
+
+.gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+}
+.homepage-content h1 { 
+    color: #f3e5d6dc ;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.homepage-content p {
+    font-size: 20px;
+    color: #7D746B;
+    margin-top: 20px;
+}
+/*.homepage-content button {
+   
+    border: 1px solid  #938d87;
+    color: #938d87 ;
+    font-size: 20px;
+    margin-top: 10px;
+
+}*/
+
+/*.homepage-content button:hover {
+    background-color: #938d87  ;
+    border: 1px solid #938d87 ;
+    color: rgb(47 42 34) ;
+
+}*/
+#Home .homepage-content button{
+    border: 1px solid  #938d87;
+    color: #938d87 ;
+    font-size: 20px;   
+    margin-top: 10px;
+}
+
+#Home .homepage-content button:hover {
+    background-color: #938d87 ;
+    border: 1px solid  #938d87;
+    color:  rgb(47 42 34) ;
+
+}
+
+/* </HOMEPAGE_ CSS> */
+
+
+/* <Aboutus-page_ CSS> */
+#about {
+    /* background-color: #938d87  ; */
+    background-color:  rgb(40 28 9 / 80%);;
+    width: 100%;
+    height: 100vh;
+}
+
+#about .container {
+    padding-top: 7%;
+    /* padding-bottom: 7%; */
+}
+
+#about .heading {
+    text-align: center;
+    margin-bottom: 60px;
+    color: rgb(47 42 34) ;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid  #F0E5D6;
+}
+ 
+#about span {
+    color: bisque ; 
+}
+
+#about .card{
+    border-radius: 10px;
+}
+
+#about .card img{
+    border-radius: 10px;
+}
+
+#about button{
+    border: 1px solid #F0E5D6;
+    color: #F0E5D6 ;
+    font-size: 20px;   
+    margin-top: 6px;
+    margin-left: 50px;
+}
+
+#about button:hover {
+    background-color: rgb(47 42 34);
+    border: 1px solid  rgb(47 42 34);
+    color: #F0E5D6  ;
+
+}
+
+#about h2 {
+    margin-top: 50px;
+    margin-left: 50px;
+    color: #f0e5d6b7;
+}
+#about h2 span a {
+    color: bisque;
+    text-decoration: none;
+}
+
+#about p{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 22px;
+    color:  rgb(28, 24, 18);
+}
+
+@media screen and (max-width:982px){
+    #about h3 {
+        font-size: 8px;
+    }   
+}
+
+@media screen and (max-width:766px){
+    #about h3 {
+        font-size: 15px;
+    }  
+    #about {
+        height: 120vh;
+    } 
+}
+
+@media screen and (max-width:982px){
+    #about p {
+        font-size: 8px;
+    }   
+}
+@media screen and (max-width:766px){
+    #about p {
+        font-size: 15px;
+    }   
+    #about {
+        height: 120vh;
+    }
+}
+
+@media screen and (max-width:982px){
+    #about button {
+        font-size: 8px;
+    }   
+}
+@media screen and (max-width:766px){
+    #about button {
+        font-size: 15px;
+    }   
+    #about {
+        height: 120vh;
+    }
+}
+
+/* </Aboutus-page_ CSS> */
+
+/* menu-page */
+
+#Menu {
+    background-color: #c9b5a0  ;
+     width: 100%;
+    height: 100vh;
+}
+
+#Menu .container {
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+
+#Menu .heading2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: rgb(47 42 34) ;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid #f3e5d6 ;
+}
+#Menu .heading3 {
+    margin-bottom: 30px;
+    margin-left: 40px;
+    color: rgb(47 42 34) ;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Menu span {
+    color : #f3e5d6;/* #F0E5D6*/ 
+}
+#Menu .card {
+    box-shadow: 5px 10px 18px  rgba(47, 42, 34, 0.527);
+}
+
+#Menu .card h5{
+    background-color: #f4ebe2ba ;
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    color:  rgb(47 42 34);
+}
+#Menu .card p{
+    font-size: 16px;
+    color:  rgb(47 42 34);
+    padding-top: 20px;
+}
+#Menu button{
+    border: 1px solid #f3e5d6 ;
+    color: rgb(47 42 34) ;
+    background-color: #f3e5d6 ;
+    font-size: 20px;   
+    margin-top: 80px;
+    margin-left: 45%;
+    font-weight: bold;
+} 
+
+#Menu button:hover {
+    background-color: rgb(47 42 34);
+    border: 1px solid  rgb(47 42 34);
+    color:  #f3e5d6;
+
+}
+
+/* /menu-page */
+
+
+/* contact-us page */
+
+#Contact  {
+    background-color:#f4ebe2ba  ;
+     width: 100%;
+    height: 100vh;
+}
+
+#Contact .container {
+    padding-top: 7%;
+}
+
+#Contact .heading {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: rgb(47 42 34) ;
+    font-size: 40px;
+    font-weight: bold;
+    border-bottom: 3px solid #c9b5a0;
+}
+
+
+#Contact span {
+    color : #c9b5a0 ;
+}
+
+#Contact input {
+    margin-bottom: 15px;
+    width: 360px;
+    border: none;
+    border-bottom: 2px solid #938d87 ;
+    border-radius: 0%;
+}
+
+#Contact button {
+    margin-top: 20px;
+    width: 200px;
+    height: 36px;
+    border:  #938d87  ;
+    background-color:  #938d87 ;
+    color:  #e8e5e2;
+}
+
+#Contact #info {
+    /* background-color: #c9b5a0; */
+    padding-top: 30px;
+}
+
+#Contact  #info p {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    color:  rgb(47 42 34);
+}
+
+/* /contact-us page */
+
+
+
+/* testimonials page*/
+#testimonials {
+    background-color: #c9b5a0   ;
+    width: 100%;
+    height: 100vh; 
+      
+}
+
+#testimonials  .container {
+    padding-top: 7%;
+}
+
+#testimonials h1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: rgb(47 42 34) ;
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #f3e5d6 ;
+}
+
+#testimonials .row {
+    margin-top: 50px;
+}
+
+#testimonials .card img {
+    width: 100px;
+     margin-left: 95px; 
+     padding-top:20px ;
+     padding-bottom: 20px;
+}
+
+#testimonials .card {
+    box-shadow: 5px 10px 18px  rgba(47, 42, 34, 0.527);
+}
+/* /testimonials page*/
+
+/* footer section */
+footer {
+    background-color: rgb(40 28 9 / 80%) ;
+}
+
+.footer-continer {
+    width: 100%;
+    padding: 40px 30px 20px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+.social-container a {
+    background-color:  #e8e5e2;
+    text-decoration: none;
+    padding: 5.5px 11px;
+    margin: 10px;
+    color: rgb(40 28 9 / 80%);
+    border-radius: 50%;
+}
+
+.social-container a i{
+    font-size: 1.5em; ;
+    opacity: 0.9;
+    
+}
+
+.social-container a:hover{
+    background-color:  rgba(40, 28, 9, 0.478);
+    transition: 0.5s;
+    color:  #e8e5e2;
+    
+}
+.footer-nav {
+    margin: 30px 0;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    /* margin-left: -50px; */
+}
+
+.footer-nav ul li {
+    list-style: none;
+}
+
+.footer-nav ul li a{
+    text-decoration: none;
+    color:#e8e5e2;
+    margin: 15px;
+    font-size: 1em;
+    opacity: 0.7;
+    
+}
+
+.footer-nav ul li a:hover {
+    opacity: 1;
+    transition: 0.5;
+}
+
+.footer-bottom {
+    background-color:  rgba(40, 28, 9, 0.478);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;   
+}
+
+.footer-bottom p {
+    color:#e8e5e2 ;
+    opacity: 0.7;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-bottom .designer {
+    color:#e8e5e2;
+    opacity: 1;
+}
+
+/* /footer section */
+
+html {
+    scroll-behavior: smooth;
+}
+
+.arrow {
+    position: fixed;
+    height: 50px;
+    bottom: 70px;
+    right: 20px;
+    /* text-align: center; */
+   
+}
